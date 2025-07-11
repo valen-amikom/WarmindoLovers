@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WarmindoLovers - Tentang Kami</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fffaf0;
+    }
+
+    .wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    footer {
+      margin-top: auto;
+    }
+
+    .about-text {
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    .section-title {
+      color: #d62828;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .custom-table th {
+      background-color: #ffd6d6;
+    }
+
+    .intro-box {
+      background: #fff3cd;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #d62828;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">WarmindoLovers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="lokasi.html">Lokasi</a></li>
+            <li class="nav-item"><a class="nav-link active" href="tentang.html">Tentang Kami</a></li>
+            <li class="nav-item"><a class="nav-link" href="hubungi.html">Hubungi</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-white text-center py-5" style="background: linear-gradient(to right, #ffcc00, #ff5733);">
+      <div class="container">
+        <h1 class="display-5 fw-bold">Tentang WarmindoLovers</h1>
+        <p class="lead">Satu tempat digital untuk para pencinta warmindo se-Indonesia</p>
+      </div>
+    </header>
+
+    <!-- Konten Tentang -->
+    <section class="container my-5">
+      <h2 class="section-title">Tujuan Proyek</h2>
+      <div class="about-text mb-5">
+        <p>Web ini dibuat sebagai proyek akhir mata kuliah Pengenalan Perancangan Web dengan tujuan untuk:</p>
+        <ul>
+          <li>Melatih pembuatan website menggunakan Bootstrap</li>
+          <li>Mengasah kemampuan HTML, CSS, dan JavaScript</li>
+          <li>Meningkatkan kreativitas serta kerja sama tim</li>
+        </ul>
+      </div>
+
+      <h2 class="section-title">Anggota Kelompok</h2>
+      <div class="mb-4">
+        <table class="table table-bordered table-striped custom-table table-hover">
+          <thead class="text-center">
+            <tr>
+              <th>No</th>
+              <th>Nama</th>
+              <th>NIM</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr>
+              <td>1</td>
+              <td>Valen Febriyatna</td>
+              <td>24.12.3164</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Muhammad Afdhal Al Hakim</td>
+              <td>24.12.3157</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Dzaki Rian Wibawa</td>
+              <td>24.12.3198</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Akhdan Akhmad Nur Faza</td>
+              <td>24.12.3161</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <!-- Ikon Sosial Media -->
+        <div class="d-flex justify-content-center mb-3">
+          <a href="https://www.instagram.com/si.amikom?igsh=MW55enVzeHFzeHJ5ZQ==" target="_blank"
+            class="text-white fs-4 footer-icon mx-3" title="Instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.tiktok.com/@amikomjogja?_t=ZS-8xrJF0vwTln&_r=1" target="_blank"
+            class="text-white fs-4 footer-icon mx-3" title="TikTok">
+            <i class="bi bi-tiktok"></i>
+          </a>
+          <a href="https://youtube.com/@amikomjogjavideo?feature=shared" target="_blank"
+            class="text-white fs-4 footer-icon mx-3" title="YouTube">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+        <!-- Credit -->
+        <p class="mb-0">© 2025 WarmindoLovers | Developed by Tim Final Project Bj Lovers.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
